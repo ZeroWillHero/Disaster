@@ -1,20 +1,20 @@
-import 'package:flutter/material.dart';
 import 'package:diasster/widgets/header.dart';
+import 'package:flutter/material.dart';
 
-class EarthquakeScreen extends StatelessWidget {
+class FireScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView(
         children: [
           HeaderWidget(
-            title: 'Earthquakes',
+            title: 'Fire',
             showBackButton: true,
           ),
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Text(
-              'Guidelines',
+              'Safety Guidelines',
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 24,
@@ -27,7 +27,7 @@ class EarthquakeScreen extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(24.0),
             child: Text(
-              'Make sure you have a fire extinguisher, first aid kit, a battery-powered radio, a flashlight, and extra batteries at home.\nLearn first aid.\nLearn how to turn off the gas, water, and electricity.\nMake up a plan of where to meet your family after an earthquake.\nAnchor heavy furniture, cupboards, and appliances to the walls or floor.\nLearn the earthquake plan at your school or workplace.',
+              '+ Install smoke alarms on every level of your home.\n+ Test smoke alarms monthly.\n+ Create a fire escape plan and practice it regularly.\n+ Keep flammable items away from heat sources.\n+ Teach children about the dangers of fire and how to respond in case of emergency.',
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 16,
@@ -44,7 +44,7 @@ class EarthquakeScreen extends StatelessWidget {
               height: 270,
               decoration: ShapeDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/flod.jpg'),
+                  image: AssetImage('assets/firs.jpg'),
                   fit: BoxFit.fill,
                 ),
                 shape: RoundedRectangleBorder(
