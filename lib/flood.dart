@@ -4,7 +4,6 @@ void main() {
   runApp(const FigmaToCodeApp2());
 }
 
-
 class FigmaToCodeApp2 extends StatelessWidget {
   const FigmaToCodeApp2({super.key});
 
@@ -45,7 +44,14 @@ class Iphone1415Pro18 extends StatelessWidget {
                     gradient: LinearGradient(
                       begin: Alignment(1.00, 0.00),
                       end: Alignment(-1, 0),
-                      colors: [Color.fromARGB(255, 0, 133, 226), Color.fromARGB(255, 0, 119, 196), Color.fromARGB(255, 1, 105, 169), Color.fromARGB(255, 1, 91, 145), Color.fromARGB(255, 1, 81, 127), Color.fromARGB(255, 1, 71, 110)],
+                      colors: [
+                        Color.fromARGB(255, 0, 133, 226),
+                        Color.fromARGB(255, 0, 119, 196),
+                        Color.fromARGB(255, 1, 105, 169),
+                        Color.fromARGB(255, 1, 91, 145),
+                        Color.fromARGB(255, 1, 81, 127),
+                        Color.fromARGB(255, 1, 71, 110)
+                      ],
                     ),
                   ),
                 ),
@@ -103,7 +109,9 @@ class Iphone1415Pro18 extends StatelessWidget {
                   width: 348,
                   height: 192,
                   child: Text(
-                    '+ Be alert.\n+ Assemble disaster supplies:\n+ Be prepared to evacuate.\n+ Review your Family Disaster Plan.\n+ Protect your property.\n+ Don''t drive unless you have to. If you must drive, travel with care.\n+ NEVER drive through flooded roadways. STOP! Turn Around Don''t Drown',
+                    '+ Be alert.\n+ Assemble disaster supplies:\n+ Be prepared to evacuate.\n+ Review your Family Disaster Plan.\n+ Protect your property.\n+ Don'
+                    't drive unless you have to. If you must drive, travel with care.\n+ NEVER drive through flooded roadways. STOP! Turn Around Don'
+                    't Drown',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 16,
