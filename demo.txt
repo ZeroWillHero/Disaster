@@ -1,0 +1,19 @@
+Positioned(
+                left: 206,
+                top: 195,
+                child: SizedBox(
+                  width: 130,
+                  height: 34,
+                  child: Text(
+                    'Tsunami',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 20,
+                      fontFamily: 'Inter',
+                      fontWeight: FontWeight.w700,
+                      height: 0,
+                    ),
+                  ),
+                ),
+              ),

@@ -1,0 +1,12 @@
+{"logTime": "0322/085613", "correlationVector":"P2R5X3Z5CnWUZMlRWE1zDB","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"", "migrationStage":"", "server":""}}
+{"logTime": "0322/085615", "correlationVector":"2KmIJFiYwdta8PKGRljs3m.1","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"Prod_SoutheastAsia_000j", "migrationStage":"NotStarted", "server":"GENERAL0300000I"}}
+{"logTime": "0322/085615", "correlationVector":"2KmIJFiYwdta8PKGRljs3m","action":"Initial GetUpdates", "result":"", "context":Reason: NEW_CLIENT. cV=2KmIJFiYwdta8PKGRljs3m}
+{"logTime": "0322/085615", "correlationVector":"2KmIJFiYwdta8PKGRljs3m.2","action":"GetUpdates Response", "result":"SYNCER_OK", "context":Received 1 update(s). cV=2KmIJFiYwdta8PKGRljs3m.0;server=GENERAL0300000I;cloudType=Consumer;environment=Prod_SoutheastAsia_000j;migrationStage=NotStarted}
+{"logTime": "0322/085615", "correlationVector":"sLsU5ntvzm4szOLRph9mUN","action":"Initial GetUpdates", "result":"", "context":Reason: NEW_CLIENT. cV=sLsU5ntvzm4szOLRph9mUN}
+{"logTime": "0322/085616", "correlationVector":"sLsU5ntvzm4szOLRph9mUN.1","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"Prod_SoutheastAsia_000j", "migrationStage":"NotStarted", "server":"GENERAL0300001D"}}
+{"logTime": "0322/085616", "correlationVector":"sLsU5ntvzm4szOLRph9mUN.2","action":"GetUpdates Response", "result":"SYNCER_OK", "context":Received 2 update(s). cV=sLsU5ntvzm4szOLRph9mUN.0;server=GENERAL0300001D;cloudType=Consumer;environment=Prod_SoutheastAsia_000j;migrationStage=NotStarted}
+{"logTime": "0322/085616", "correlationVector":"h867bhZlUiiiffrfh4CI02","action":"Normal GetUpdate request", "result":"", "context":cV=h867bhZlUiiiffrfh4CI02
+Nudged types: Device Info, User Consents
+Refresh requested types: Device Info, User Consents, Send Tab To Self, Encryption Keys}
+{"logTime": "0322/085616", "correlationVector":"h867bhZlUiiiffrfh4CI02.1","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"Prod_SoutheastAsia_000j", "migrationStage":"NotStarted", "server":"general01000001"}}
+{"logTime": "0322/085616", "correlationVector":"h867bhZlUiiiffrfh4CI02.2","action":"GetUpdates Response", "result":"SYNCER_OK", "context":Received 0 update(s). cV=h867bhZlUiiiffrfh4CI02.0;server=general01000001;cloudType=Consumer;environment=Prod_SoutheastAsia_000j;migrationStage=NotStarted}
