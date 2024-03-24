@@ -21,6 +21,7 @@ class MainApp extends StatelessWidget {
   }
 }
 
+// Figma Codes removed.
 class DashboardScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -31,17 +32,20 @@ class DashboardScreen extends StatelessWidget {
           width: double.infinity,
           child: Column(
             children: [
+              // Created new widget for header. Located in widgets/header.dart
               HeaderWidget(title: 'Preparedness', showBackButton: false),
               CategoryItem(
                 image: 'assets/tsunami.jpg',
                 title: 'Tsunami',
                 onPressed: () {
+                  // Screen names updated with valid names
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => TsunamiScreen()),
                   );
                 },
               ),
+              // Created new widget for category items. Located in widgets/category.dart
               CategoryItem(
                 image: 'assets/flod.jpg',
                 title: 'Flood',

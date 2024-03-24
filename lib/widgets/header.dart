@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
+// Header widget to display the title of the screen on every page
 class HeaderWidget extends StatelessWidget {
   final String title;
+  // based on the screen, back button will be shown or hidden
   final bool showBackButton;
 
   const HeaderWidget(
@@ -40,6 +42,7 @@ class HeaderWidget extends StatelessWidget {
               left: 10,
               child: InkWell(
                 onTap: () {
+                  // back button will navigate to the previous screen
                   Navigator.pop(context);
                 },
                 child: Container(

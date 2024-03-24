@@ -1,16 +1,19 @@
 import 'package:diasster/widgets/header.dart';
 import 'package:flutter/material.dart';
 
+// Figma codes removed. no need of main() function on every screen.
 class TsunamiScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView(
         children: [
+          // used same header widget for all screens. Located in widgets/header.dart
           HeaderWidget(
             title: 'Tsunami',
             showBackButton: true,
           ),
+          // Positioned widgets removed and replaced with standard widgets.
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Text(
